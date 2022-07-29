@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+            <li class="crumb"><a href="./neighborhood.html">The Community</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+<br>
+<br>
+<main>
+
+    <header>
+        <h1>Learn more about Sarah Courchaine</h1>
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQGODMowZNzKWg/profile-displayphoto-shrink_400_400/0/1554439283529?e=1664409600&v=beta&t=81pf9iCITZbK6_u2t890WKJ6QoqnKow3Ouo8hsLFLN0" alt="profile picture">
+    </header>
+
+    <div>
+        <h2>Skills I have</h2>
+        <ul id="skillsList">
+            <li>Organized</li>
+            <li>Extroverted</li>
+            <li>Time management</li>
+            <li>Punctual</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Some of my interests</h2>
+
+        <style>
+            td,th {
+                border: 2px solid black;
+                text-align: left;
+                padding: 5px;
+            }
+        </style>
+        
+        <table id="interestsTable">
+            <tr>
+                <th>Job Interests</th>
+                <th>Personal Interests</th>
+            </tr>
+            <tr>
+                <td>Excel</td>
+                <td>Cooking</td>
+            </tr>
+            <tr>
+                <td>Microsoft Word</td>
+                <td>Sharks</td>
+            </tr>
+            <tr>
+                <td>Discord</td>
+                <td>Gardening</td>
+            </tr>
+            <tr>
+                <td>Five9</td>
+                <td>Ceramics</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h2>Career goals</h2>
+
+        <p>Here is a list of some of my career goals, feel free to check off the ones that we share!</p>
+
+        <form>
+            <input type="checkbox" id="job">
+                <label for="job">Move to a new job at least every three years</label><br>
+            <input type="checkbox" id="company">
+                <label for="company">Work for a company that prioritizes work life balance</label><br>
+            <input type="checkbox" id="wfh">
+                <label for="wfh">Be able to work from home to be with my kids</label>
+            <input type="checkbox" id="bored">
+                <label for="bored">Wake up everyday excited to work and not get bored</label><br>
+        </form>
+    </div>
+<br>
+<br>
+    <button id="color" class="colorButton">My Favorite Color</button>
+    <br>
+    <button id="place" class="favoriteButton">My Favorite Place</button>
+    <br>
+    <button id="ritual"class="ritualButton">My Favorite Ritual</button>
+
+<br>
+<br>
+</main>
+<script src="profile.js"></script>
+</body>
+
+<a href="./home.html"><< Back </a>
